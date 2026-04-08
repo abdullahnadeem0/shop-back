@@ -15,7 +15,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: process.env.CORS_ORIGIN || 'https://shop-front-9a5x.vercel.app',
+  origin: process.env.CORS_ORIGIN ,
   credentials: true
 }));
 app.use(express.json());
